@@ -5,8 +5,9 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<title>Test Page</title>
 		<link rel="stylesheet" type="text/css" href="inc/style.css" />
+		<script type="text/javascript" src="inc/email.js"></script>
 	</head>
-	<body>
+	<body onload="renderEmail()">
 		<div id="header">
 			<div class="container">
 				<img id="logo" src="inc/phoenix.png" alt="Logo"/>
@@ -34,7 +35,7 @@
 								<a href="#linkedin"><img class="social" src="inc/social/linkedin.png" alt="LinkedIn"/></a>
 								<a href="#skype"><img class="social" src="inc/social/skype.png" alt="Skype"/></a>
 								<a href="https://github.com/Tzolkat"><img class="social" src="inc/social/github.png" alt="Github"/></a>
-								<a href="#email"><img class="social" src="inc/social/email.png" alt="Email"/></a>
+								<a class="emailLink" href="#EnableJavascript"><img class="social" src="inc/social/email.png" alt="Email"/></a>
 								<br /><span>This is a test.</span><br />
 								<a class="link" href="http://google.com/">Go to Google</a>
 							</div>

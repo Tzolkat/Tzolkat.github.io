@@ -1,197 +1,201 @@
-/* Carbon fiber background for the document. */
+/* Attributes to apply to the whole document.
+---------------------------------------------------------- */
 body {
-	background: black url('carbon_fiber1.jpg') repeat;
-	padding: 0px 20px 20px 5px;
-	max-width: 1200px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-/* Main area behaves like a table. */
-#main {
-	display: table;
-	margin: auto;
-	width: 100%;
-}
-
-/* Required for table layout. Has no other function. */
-.container {
-	display: table-row;
-}
-
-/* Container for all nav blocks. Fixed width. */
-#navigation {
-	display: table-cell;
-	min-width: 155px;
-	width: 155px;
-	padding: 20px 0px 20px 0px;
-}
-
-/* Containers for the navigation links. */
-.navblock {
-	display: block;
-	background: rgba(0, 0, 0, 0.6);
-	padding: 1px 10px 1px 1px;
-	margin: 2px 0px 2px 10px;
-	border: solid #333;
-	border-width: 2px 0px 2px 2px;
-	border-radius: 10px 0px 0px 10px;
-	box-shadow: 6px 6px 3px black;
-	text-align: right;
-	color: white;
-	text-decoration: none;
-	transition: margin 200ms, padding-right 200ms, border-color 200ms;
-}
-
-/* Animated navigation links. */
-.navblock:hover {
-	margin: 2px 0px 2px 0px;
-	padding-right: 20px;
-	border-color: #069;
-}
-
-/* Current page as defined in navigation. */
-#current {
-	margin: 2px 0px 2px 0px;
-	padding-right: 20px;
-	border-color: #666;
-	font-weight: bold;
-}
-
-/* Container for the actual content. Dynamic width. */
-#content {
-	display: table-cell;
-	min-width: 600px;
-	background: rgba(0, 0, 0, 0.6);
-	border:4px solid #333;
-	border-radius: 12px;
-	box-shadow: 6px 6px 3px black;
-	vertical-align: top;
-	text-align: left;
-	padding: 10px;
-	color: white;
-}
-
-/* Defines an article of text. Black on white. */
-.article {
-	background: rgba(255, 255, 255, 0.9);
-	border-radius: 5px;
-	padding: 10px;
-	color: black;
-	overflow: auto;
-}
-
-/* Paragraph attributes. Indent and drop cap. */
-p {
-	text-indent: 30px;
-}
-
-p:first-letter {
-	font-size: 22px;
-	font-weight: bold;
+    background: black url('carbon_fiber1.jpg') repeat;
+    padding: 0px 20px 20px 5px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Horizontal rule, thematic break. */
 hr {
-	border: 1px solid #333;
-	border-radius: 5px;
-	margin: 5px 0px 5px 0px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin: 5px 0px 5px 0px;
 }
 
-/* Figure container. For images and their captions. */
-.figure {
-	float: right;
-	margin: 10px;
-	padding: 5px;
-	border: 1px solid #333;
-	border-radius: 5px;
-	text-align: center;
+/* Heading 1 style for titles, such as my name. */
+h1 {
+    font-size: 34px;
+    font-weight: bold;
+    margin: 2px;
+    text-shadow: 2px 2px black;
 }
 
-.caption {
-	margin-top: 8px;
+/* Heading 2. Used for job title and article headings. */
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 2px 2px 5px 2px;
+    letter-spacing: 2px;
 }
 
-/* Back to top link and hover animation. */
-.totop {
-	font-size: 12px;
-	display: block;
-	text-align: right;
-	color: #333;
-	transition: color 200ms;
+/* Style and animation for document hyperlinks. */
+a {
+    color: #333;
+    transition: color 200ms;
 }
 
-.totop:hover {
-	color: #069;
+a:hover {
+    color: #069;
 }
 
-/* Inline link and hover animation. */
-.link {
-	color: #333;
-	transition: color 200ms;
-}
-
-.link:hover {
-	color: #069;
-}
-
-/* Social media icons. */
-.social {
-	background-color: #333;
-	border-radius: 5px;
-	transition: background-color 200ms;
-}
-
-.social:hover {
-	background-color: #069;
-}
-
-/* Header container. */
-#header {
-	display: table;
-	padding: 0px 20px 0px 175px;
-	text-align: center;
-	color: #666;
-	min-width: 590px;
-}
-
-/* The logo image itself. */
-#logo {
-	display: table-cell;
-	width: 120px;
+/* Header area styles.
+---------------------------------------------------------- */
+header {
+    display: table;
+    padding: 0px 20px 0px 175px;
+    text-align: center;
+    color: #666;
+    min-width: 590px;
 }
 
 /* Container for the site heading. */
-#siteheading {
-	display: table-cell;
-	text-align: left;
-	vertical-align: bottom;
-	padding: 0px 0px 10px 5px;
-	width: 100%;
+header section {
+    display: table-cell;
+    text-align: left;
+    vertical-align: bottom;
+    padding: 0px 0px 10px 5px;
+    width: 100%;
 }
 
-/* Heading 2. Used for my name. */
-h2 {
-	font-size: 34px;
-	font-weight: bold;
-	margin: 2px;
-	text-shadow: 2px 2px black;
-	color: #aaa;
+/* The logo image itself. */
+header img {
+    display: table-cell;
+    width: 120px;
 }
 
-/* Heading 3. Used for job title and article headings. */
-h3 {
-	font-size: 20px;
-	font-weight: bold;
-	margin: 2px 2px 5px 2px;
-	letter-spacing: 2px;
+/* Style for my name in the header. */
+header h1 {
+    color: #aaa;
 }
 
-/* Default style for the footer info. */
-#footer {
-	margin: auto;
-	padding: 20px 20px 0px 175px;
-	text-align: center;
-	font-size: 12px;
-	color: #666;
+/* Footer area styles.
+---------------------------------------------------------- */
+footer {
+    margin: auto;
+    padding: 20px 20px 0px 175px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}
+
+/* Navigation area styles.
+---------------------------------------------------------- */
+#menu {
+    display: table-cell;
+    min-width: 155px;
+    width: 155px;
+    padding: 20px 0px 20px 0px;
+}
+
+/* Containers for the navigation links. */
+#menu * {
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1px 10px 1px 1px;
+    margin: 2px 0px 2px 10px;
+    border: solid #333;
+    border-width: 2px 0px 2px 2px;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: 6px 6px 3px black;
+    text-align: right;
+    color: white;
+    text-decoration: none;
+    transition: margin 200ms, padding-right 200ms, border-color 200ms;
+}
+
+/* Animated navigation links. */
+#menu a:hover {
+    margin: 2px 0px 2px 0px;
+    padding-right: 20px;
+    border-color: #069;
+    color: white;
+}
+
+/* Current page as defined in navigation. */
+#menu span {
+    margin: 2px 0px 2px 0px;
+    padding-right: 20px;
+    border-color: #666;
+    font-weight: bold;
+}
+
+/* Social media bar styles.
+---------------------------------------------------------- */
+.social a {
+    text-decoration: none;
+}
+
+.social a img {
+    background-color: #333;
+    border-radius: 5px;
+    transition: background-color 200ms;
+}
+
+.social a img:hover {
+    background-color: #069;
+}
+
+/* Main area styles.
+---------------------------------------------------------- */
+main {
+    display: table;
+    margin: auto;
+    width: 100%;
+}
+
+/* Container for the actual content. Dynamic width. */
+main section {
+    display: table-cell;
+    min-width: 600px;
+    background: rgba(0, 0, 0, 0.6);
+    border:4px solid #333;
+    border-radius: 12px;
+    box-shadow: 6px 6px 3px black;
+    vertical-align: top;
+    text-align: left;
+    padding: 10px;
+    color: white;
+}
+
+/* Defines an article of text. Black on white. */
+article {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    overflow: auto;
+}
+
+/* Paragraph attributes. Indent and drop cap. */
+p {
+    text-indent: 30px;
+}
+
+p:first-letter {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Figure container. For images and their captions. */
+figure {
+    float: right;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 8px;
+}
+
+/* Style for the special 'back to top' link. */
+.totop {
+    font-size: 12px;
+    display: block;
+    text-align: right;
 }

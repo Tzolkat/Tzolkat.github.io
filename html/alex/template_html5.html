@@ -1,12 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="inc/style5.css">
-        <script type="text/javascript" src="inc/email.js"></script>
+        <script src="inc/email.js"></script>
         <title>Test Page</title>
     </head>
     <body onload="renderEmail()">
-        
+        <header id="top">
+            <img src="inc/phoenix.png" alt="Logo">
+            <section>
+                <h1>Alex Lauderdale</h1>
+                <hr>
+                <h2>Computer Scientist / Writer</h2>
+            </section>
+        </header>
+        <main>
+            <nav>
+                <span>About</span>
+                <a href="education.html">Education</a>
+                <a href="projects.html">Projects</a>
+                <a href="downloads.html">Downloads</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <section>
+                <article>
+                    <figure>
+                        <img src="inc/profile.jpg" alt="Photo">
+                        <figcaption>
+                            <a href="#linkedin">
+                                <img class="social" src="inc/social/linkedin.png" alt="LinkedIn">
+                            </a>
+                            <a href="https://github.com/Tzolkat">
+                                <img class="social" src="inc/social/github.png" alt="LinkedIn">
+                            </a>
+                            <a href="https://bitbucket.org/Tzolkat">
+                                <img class="social" src="inc/social/bitbucket.png" alt="LinkedIn">
+                            </a>
+                            <a class="emailLink" href="#EnableJavascript">
+                                <img class="social" src="inc/social/email.png" alt="LinkedIn">
+                            </a>
+                            <br>
+                            This is a test.
+                            <br>
+                            <a href="https://google.com/">Go to Google</a>
+                        </figcaption>
+                    </figure>
+                </article>
+            </section>
+        </main>
+        <footer>
+            &copy; 2014-2019 Alex Lauderdale. All Rights Reserved.
+            <br>
+            <a href="http://validator.w3.org/check?uri=referer">HTML5</a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS3</a>
+        </footer>
     </body>
 </html>

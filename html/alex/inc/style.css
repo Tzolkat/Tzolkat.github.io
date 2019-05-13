@@ -14,11 +14,6 @@ body {
 	width: 100%;
 }
 
-/* Required for table layout. Has no other function. */
-.container {
-	display: table-row;
-}
-
 /* Container for all nav blocks. Fixed width. */
 #navigation {
 	display: table-cell;

@@ -71,9 +71,19 @@ header h1 {
     color: #aaa;
 }
 
+/* Footer area styles.
+---------------------------------------------------------- */
+footer {
+    margin: auto;
+    padding: 20px 20px 0px 175px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}
+
 /* Navigation area styles.
 ---------------------------------------------------------- */
-nav {
+#menu {
     display: table-cell;
     min-width: 155px;
     width: 155px;
@@ -81,7 +91,7 @@ nav {
 }
 
 /* Containers for the navigation links. */
-nav * {
+#menu * {
     display: block;
     background: rgba(0, 0, 0, 0.6);
     padding: 1px 10px 1px 1px;
@@ -97,7 +107,7 @@ nav * {
 }
 
 /* Animated navigation links. */
-nav a:hover {
+#menu a:hover {
     margin: 2px 0px 2px 0px;
     padding-right: 20px;
     border-color: #069;
@@ -105,11 +115,27 @@ nav a:hover {
 }
 
 /* Current page as defined in navigation. */
-nav span {
+#menu span {
     margin: 2px 0px 2px 0px;
     padding-right: 20px;
     border-color: #666;
     font-weight: bold;
+}
+
+/* Social media bar styles.
+---------------------------------------------------------- */
+.social a {
+    text-decoration: none;
+}
+
+.social a img {
+	background-color: #333;
+	border-radius: 5px;
+	transition: background-color 200ms;
+}
+
+.social a img:hover {
+	background-color: #069;
 }
 
 /* Main area styles.
@@ -167,23 +193,9 @@ figcaption {
 	margin-top: 8px;
 }
 
-/* Social media icons. */
-.social {
-	background-color: #333;
-	border-radius: 5px;
-	transition: background-color 200ms;
-}
-
-.social:hover {
-	background-color: #069;
-}
-
-/* Footer area styles.
----------------------------------------------------------- */
-footer {
-    margin: auto;
-    padding: 20px 20px 0px 175px;
-    text-align: center;
+/* Style for the special 'back to top' link. */
+.totop {
     font-size: 12px;
-    color: #666;
+	display: block;
+	text-align: right;
 }

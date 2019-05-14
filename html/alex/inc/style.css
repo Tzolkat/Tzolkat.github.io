@@ -208,6 +208,7 @@ figcaption {
 
 /* Style for the special 'back to top' link. */
 .totop {
+	clear: both;
 	font-size: 12px;
 	display: block;
 	text-align: right;

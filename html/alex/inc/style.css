@@ -52,7 +52,7 @@ header {
 }
 
 /* Container for the site heading. */
-header section {
+header > section {
     display: table-cell;
     text-align: left;
     vertical-align: bottom;
@@ -128,26 +128,26 @@ footer {
     text-decoration: none;
 }
 
-.social a img {
+.social img {
     background-color: #333;
     border-radius: 5px;
     transition: background-color 200ms;
 }
 
-.social a img:hover {
+.social img:hover {
     background-color: #069;
 }
 
 /* Main area styles.
 ---------------------------------------------------------- */
-main {
+body > section {
     display: table;
     margin: auto;
     width: 100%;
 }
 
 /* Container for the actual content. Dynamic width. */
-main section {
+main {
     display: table-cell;
     min-width: 600px;
     background: rgba(0, 0, 0, 0.6);

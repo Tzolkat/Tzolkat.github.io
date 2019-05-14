@@ -1,16 +1,22 @@
-document.onreadystatechange = function() {
-	if (document.readyState == "interactive") {
-		var o = "tzolkat";
-		var n = "net";
-		var m = "alex";
-		var l = document.getElementsByClassName("emailLink");
-		var t = document.getElementsByClassName("emailText");
-		var i = 0;
-		for (i = 0; i < l.length; i++) {
-			l[i].setAttribute("href", "mailto:" + m + "@" + o + "." + n);
-		}
-		for (i = 0; i < t.length; i++) {
-			t[i].innerHTML = (m + "@" + o + "." + n);
-		}
-	}
+// Anti-Spam Email Script (c) 2019 Alex Lauderdale.
+// ------------------------------------------------------------------------
+// Note: IE8 is not supported.
+// ========================================================================
+
+// Provides support for forEach to NodeLists.
+function forEach(list, callback) {
+	Array.prototype.forEach.call(list, callback);
 }
+
+// Once the DOM is loaded, fill in emailLink and emailText classes.
+document.addEventListener("DOMContentLoaded", function() {
+	var o = "tzolkat";
+	var n = "net";
+	var m = "alex";
+	forEach(document.querySelectorAll(".emailLink"), function(item) {
+		item.setAttribute("href", "mailto:" + m + "@" + o + "." + n);
+	});
+	forEach(document.querySelectorAll(".emailText"), function(item) {
+		item.innerHTML = (m + "@" + o + "." + n);
+	});
+});

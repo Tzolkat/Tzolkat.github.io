@@ -52,7 +52,7 @@ header {
 }
 
 /* Container for the site heading. */
-header > section {
+header div {
 	display: table-cell;
 	text-align: left;
 	vertical-align: bottom;
@@ -140,7 +140,7 @@ footer {
 
 /* Main area styles.
 ---------------------------------------------------------- */
-body > section {
+#page {
 	display: table;
 	margin: auto;
 	width: 100%;

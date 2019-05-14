@@ -1,4 +1,12 @@
-/* Attributes to apply to the whole document.
+/* ==========================================================
+	Personal Website (c) 2014-2019 Alex Lauderdale.
+	---------------------------------------------------------
+	ID selectors: top, page, menu
+	Class selectors: social, totop, emailLink, emailText
+=========================================================== */
+
+/* ----------------------------------------------------------
+	Attributes applied to the whole document.
 ---------------------------------------------------------- */
 body {
 	background: black url('carbon_fiber1.jpg') repeat;
@@ -41,7 +49,8 @@ a:hover {
 	color: #069;
 }
 
-/* Header area styles.
+/* ----------------------------------------------------------
+	Header area styles.
 ---------------------------------------------------------- */
 header {
 	display: table;
@@ -71,7 +80,8 @@ header h1 {
 	color: #aaa;
 }
 
-/* Footer area styles.
+/* ----------------------------------------------------------
+	Footer area styles.
 ---------------------------------------------------------- */
 footer {
 	margin: auto;
@@ -81,7 +91,8 @@ footer {
 	color: #666;
 }
 
-/* Navigation area styles.
+/* ----------------------------------------------------------
+	Navigation area styles.
 ---------------------------------------------------------- */
 #menu {
 	display: table-cell;
@@ -122,7 +133,8 @@ footer {
 	font-weight: bold;
 }
 
-/* Social media bar styles.
+/* ----------------------------------------------------------
+	Social media bar styles.
 ---------------------------------------------------------- */
 .social a {
 	text-decoration: none;
@@ -138,7 +150,8 @@ footer {
 	background-color: #069;
 }
 
-/* Main area styles.
+/* ----------------------------------------------------------
+	Page body styles.
 ---------------------------------------------------------- */
 #page {
 	display: table;

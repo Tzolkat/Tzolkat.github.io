@@ -9,7 +9,7 @@
 	Attributes applied to the whole document.
 ---------------------------------------------------------- */
 body {
-	background: black url('carbon_fiber1.jpg') repeat;
+	background: black url('images/carbon_fiber1.jpg') repeat;
 	padding: 0px 20px 20px 5px;
 	max-width: 1200px;
 	margin-left: auto;

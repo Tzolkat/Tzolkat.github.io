@@ -23,14 +23,6 @@ hr {
 	margin: 5px 0px 5px 0px;
 }
 
-/* Heading 1 style for titles, such as my name. */
-h1 {
-	font-size: 34px;
-	font-weight: bold;
-	margin: 2px;
-	text-shadow: 2px 2px black;
-}
-
 /* Heading 2. Used for job title and article headings. */
 h2 {
 	font-size: 20px;
@@ -75,8 +67,12 @@ header img {
 	width: 120px;
 }
 
-/* Style for my name in the header. */
-header h1 {
+/* Heading 1 style for the page title: My name. */
+h1 {
+	font-size: 34px;
+	font-weight: bold;
+	margin: 2px;
+	text-shadow: 2px 2px black;
 	color: #aaa;
 }
 

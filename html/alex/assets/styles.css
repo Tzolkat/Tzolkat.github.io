@@ -91,10 +91,12 @@ footer {
 	Navigation area styles.
 ---------------------------------------------------------- */
 #menu {
-	display: table-cell;
 	min-width: 155px;
 	width: 155px;
 	padding: 20px 0px 20px 0px;
+	position: sticky;
+	top: 0;
+	z-index: 0;
 }
 
 /* Containers for the navigation links. */
@@ -167,6 +169,8 @@ main {
 	text-align: left;
 	padding: 10px;
 	color: white;
+	position: relative;
+	z-index: 1;
 }
 
 /* Defines an article of text. Black on white. */

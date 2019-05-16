@@ -117,6 +117,10 @@ Might Use but Leave As-Is:
 <q>			- Surround in quotes.
 <abbr>		- Abbreviate, expansion on hover.
 
+Will Need Styling:
+--------------------------
+
+
 Not Considered Yet:
 --------------------------
 <address>
@@ -147,3 +151,8 @@ Table Tags
 <embed>
 <object>
 <param>
+
+Notes:
+--------------------------
+Need to look up a way to write equations.
+Possibly need to import a syntax highlighter.

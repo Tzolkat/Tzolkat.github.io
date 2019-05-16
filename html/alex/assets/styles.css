@@ -187,6 +187,35 @@ time {
 	letter-spacing: 2px;
 }
 
+/* Headers 3-6 for multi-section support. */
+h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 2px 2px 5px 2px;
+	letter-spacing: 2px;
+}
+
+h4 {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 2px 2px 5px 2px;
+	letter-spacing: 2px;
+}
+
+h5 {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 2px 2px 5px 2px;
+	letter-spacing: 2px;
+}
+
+h6 {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 2px 2px 5px 2px;
+	letter-spacing: 1px;
+}
+
 /* Paragraph attributes. Indent and drop cap. */
 p {
 	text-indent: 30px;

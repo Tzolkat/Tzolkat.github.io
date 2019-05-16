@@ -58,6 +58,18 @@ Blogging Timestamps:
 --------------------------
 <article>
 	<time>	
+	
+Multi-Section Articles:
+--------------------------
+<article>
+	<section>
+		<h3>
+		<section>
+			<h4>
+			<section>
+				<h5>
+				<section>
+					<h6>
 
 Already Added List:
 --------------------------
@@ -78,28 +90,19 @@ Already Added List:
 <footer>
 <main>
 <article>
-
-Planned Features:
-==========================
-Multi-Section Articles:
---------------------------
-<article>
-	<section>
-		<h3>
-		<section>
-			<h4>
-			<section>
-				<h5>
-				<section>
-					<h6>
-					
-Plan to Add List:
---------------------------
 <section>
 <h3>
 <h4>
 <h5>
 <h6>
+
+Planned Features:
+==========================
+
+					
+Plan to Add List:
+--------------------------
+
 
 Might Use but Leave As-Is:
 --------------------------

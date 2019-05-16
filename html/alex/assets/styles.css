@@ -187,32 +187,37 @@ time {
 	letter-spacing: 2px;
 }
 
+/* Section styling. Large top margin for readability. */
+section {
+	margin-top: 40px;
+}
+
 /* Headers 3-6 for multi-section support. */
 h3 {
 	font-size: 18px;
 	font-weight: bold;
-	margin: 2px 2px 5px 2px;
+	margin: 2px 2px 4px 2px;
 	letter-spacing: 2px;
 }
 
 h4 {
 	font-size: 16px;
 	font-weight: bold;
-	margin: 2px 2px 5px 2px;
+	margin: 2px;
 	letter-spacing: 2px;
 }
 
 h5 {
 	font-size: 14px;
 	font-weight: bold;
-	margin: 2px 2px 5px 2px;
+	margin: 2px;
 	letter-spacing: 2px;
 }
 
 h6 {
 	font-size: 14px;
 	font-weight: bold;
-	margin: 2px 2px 5px 2px;
+	margin: 2px;
 	letter-spacing: 1px;
 }
 
@@ -244,7 +249,7 @@ figcaption {
 .totop {
 	clear: both;
 	font-size: 12px;
-	margin-right: 5px;
+	margin-right: 14px;
 	display: block;
 	text-align: right;
 }

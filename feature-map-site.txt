@@ -1,0 +1,149 @@
+Completed Features
+==========================
+Header Stuff:
+--------------------------
+<header>
+	<img>
+	<div>
+		<h1>
+		<h2>
+		<hr>
+	
+Footer Stuff:
+--------------------------
+<footer>
+	<br>
+	<a>
+	
+Page Container:
+--------------------------
+<body>
+	<div>
+	
+Main Menu:
+--------------------------
+<div>
+	<nav>
+		<span>
+		<a>
+		
+Basic Article Support:
+--------------------------
+<main>
+	<article>
+		<h2>
+		<hr>
+		<p>
+		<a>
+		<br>
+	<hr>
+	
+Figure Support:
+--------------------------
+<article>
+	<figure>
+		<img>
+		<figcaption>
+			<a>
+			<br>
+			
+Social Media Buttons:
+--------------------------
+<figcaption>
+	<nav>
+		<a>
+			<img>
+			
+Blogging Timestamps:
+--------------------------
+<article>
+	<time>	
+
+Already Added List:
+--------------------------
+<h1>
+<h2>
+<p>
+<br>
+<hr>
+<time>
+<img>
+<figure>
+<figcaption>
+<a>
+<nav>
+<div>
+<span>
+<header>
+<footer>
+<main>
+<article>
+
+Planned Features:
+==========================
+Multi-Section Articles:
+--------------------------
+<article>
+	<section>
+		<h3>
+		<section>
+			<h4>
+			<section>
+				<h5>
+				<section>
+					<h6>
+					
+Plan to Add List:
+--------------------------
+<section>
+<h3>
+<h4>
+<h5>
+<h6>
+
+Might Use but Leave As-Is:
+--------------------------
+<em>		- Emphasized Italics.
+<strong>	- Strong Bold.
+<u>			- Underline.
+<s>			- Strikethrough.
+<mark>		- Highlight.
+<sub>		- Subscript.
+<sup>		- Superscript.
+<del>		- Delete Strikethrough.
+<ins>		- Underline Insert.
+<cite>		- Citation Italics.
+<dfn>		- Definition Italics.
+<q>			- Surround in quotes.
+<abbr>		- Abbreviate, expansion on hover.
+
+Not Considered Yet:
+--------------------------
+<address>
+<blockquote>
+<code>
+<kbd>
+<pre>
+<samp>
+<small>
+<template>
+<var>
+<wbr>
+<iframe>
+<picture>
+<svg>
+<audio>
+<source>
+<track>
+<video>
+List Tags
+Table Tags
+<aside>
+<details>
+<dialog>
+<summary>
+<data
+<noscript>
+<embed>
+<object>
+<param>

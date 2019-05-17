@@ -178,6 +178,11 @@ article {
 	overflow: auto;
 }
 
+/* Section styling. Large top margin for readability. */
+section {
+	margin-top: 40px;
+}
+
 /* Post date and time style. Float right of heading. */
 time {
 	float: right;
@@ -185,11 +190,6 @@ time {
 	margin-top: 10px;
 	margin-right: 10px;
 	letter-spacing: 2px;
-}
-
-/* Section styling. Large top margin for readability. */
-section {
-	margin-top: 40px;
 }
 
 /* Headers 3-6 for multi-section support. */

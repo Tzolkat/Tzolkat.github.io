@@ -231,6 +231,10 @@ p:first-letter {
 	font-weight: bold;
 }
 
+section > p:first-letter {
+	font-size: 20px;
+}
+
 /* Figure container. For images and their captions. */
 figure {
 	float: right;

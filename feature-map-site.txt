@@ -38,9 +38,10 @@ Basic Article Support:
 		<br>
 	<hr>
 	
-Figure Support:
+Figure and Aside Support:
 --------------------------
 <article>
+	<aside>
 	<figure>
 		<img>
 		<figcaption>
@@ -96,6 +97,7 @@ Already Added List:
 <img>
 <figure>
 <figcaption>
+<aside>
 <a>
 <nav>
 <div>
@@ -153,7 +155,6 @@ Not Considered Yet:
 <video>
 List Tags
 Table Tags
-<aside>
 <details>
 <dialog>
 <summary>

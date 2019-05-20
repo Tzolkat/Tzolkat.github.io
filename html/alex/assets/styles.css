@@ -262,8 +262,8 @@ section > p:first-letter {
 	font-size: 20px;
 }
 
-/* Figure container. For images and their captions. */
-figure {
+/* Figure and Aside container styles. */
+figure, aside {
 	float: right;
 	margin: 10px;
 	padding: 5px;

@@ -70,6 +70,20 @@ Multi-Section Articles:
 				<h5>
 				<section>
 					<h6>
+					
+Formatting support:
+--------------------------
+<p>
+	<em>
+	<strong>
+	<u>
+	<s>
+	<mark>
+	<sub>
+	<sup>
+	<q>
+	<cite>
+	<abbr>
 
 Already Added List:
 --------------------------
@@ -95,30 +109,24 @@ Already Added List:
 <h4>
 <h5>
 <h6>
+<em>
+<strong>
+<u>
+<s>
+<mark>
+<sub>
+<sup>
+<q>
+<cite>
+<abbr>
 
 Planned Features:
 ==========================
 
-					
-Plan to Add List:
---------------------------
-
 
 Might Use but Leave As-Is:
 --------------------------
-<em>		- Emphasized Italics.
-<strong>	- Strong Bold.
-<u>			- Underline.
-<s>			- Strikethrough.
-<mark>		- Highlight.
-<sub>		- Subscript.
-<sup>		- Superscript.
-<del>		- Delete Strikethrough.
-<ins>		- Underline Insert.
-<cite>		- Citation Italics.
-<dfn>		- Definition Italics.
-<q>			- Surround in quotes.
-<abbr>		- Abbreviate, expansion on hover.
+
 
 Will Need Styling:
 --------------------------

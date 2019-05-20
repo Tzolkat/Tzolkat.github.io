@@ -231,6 +231,33 @@ p:first-letter {
 	font-weight: bold;
 }
 
+mark {
+	background-color: #ccc;
+	border-radius: 2px;
+	padding: 0px 2px;
+}
+
+cite {
+	font-style: oblique;
+	border-left: 1px dotted #aaa;
+	border-right: 1px dotted #aaa;
+	padding: 0px 2px;
+}
+
+q::before {
+	font-weight: bold;
+	font-style: italic;
+	padding-right: 2px;
+	content: open-quote;
+}
+
+q::after {
+	font-weight: bold;
+	font-style: italic;
+	padding-left: 2px;
+	content: close-quote;
+}
+
 section > p:first-letter {
 	font-size: 20px;
 }

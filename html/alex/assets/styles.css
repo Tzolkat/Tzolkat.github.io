@@ -302,6 +302,16 @@ blockquote::after {
 	content: close-quote;
 	display: block;
 }
+
+/* ----------------------------------------------------------
+	Special style functionality.
+---------------------------------------------------------- */
+
+/* Collapse margin for all except figcaption. */
+figure:not(figcaption), aside * {
+	margin: 0px;
+}
+
 /* Style for the special 'back to top' link. */
 .totop {
 	clear: both;

@@ -90,6 +90,10 @@ Block Quotes:
 --------------------------
 <p>
 	<blockquote>
+	<aside>
+		<blockquote>
+	<figure>
+		<blockquote>
 
 Already Added List:
 --------------------------

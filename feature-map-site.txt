@@ -128,41 +128,45 @@ Planned Features:
 
 Might Use but Leave As-Is:
 --------------------------
+<wbr>
+<small>
 
 
 Will Need Styling:
 --------------------------
-
-
-Not Considered Yet:
---------------------------
-<address>
 <blockquote>
 <code>
 <kbd>
 <pre>
 <samp>
-<small>
-<template>
 <var>
-<wbr>
-<iframe>
-<picture>
+
+Not Considered Yet:
+--------------------------
+<address>
 <svg>
+
+YouTube-etc:
+<iframe>
+
+Audio-Video:
+<video>
+<track>
 <audio>
 <source>
-<track>
-<video>
+
 List Tags
 Table Tags
+
+Details-Foldable:
 <details>
-<dialog>
 <summary>
-<data
+
+JavaScript-Usable:
+<template>
+<data>
+<dialog>
 <noscript>
-<embed>
-<object>
-<param>
 
 Notes:
 --------------------------

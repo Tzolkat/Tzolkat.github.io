@@ -276,6 +276,32 @@ figcaption {
 	margin-top: 8px;
 }
 
+/* Style for containers like blockquote and pre */
+blockquote {
+	text-align: center;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
+	background-color: #ccc;
+	border-radius: 5px;
+	padding: 10px 15px 0px 10px;
+	margin: 20px 30px;
+}
+
+blockquote::before {
+	font-size: 30px;
+	text-align: left;
+	content: open-quote;
+	display: block;
+}
+
+blockquote::after {
+	padding-top: 15px;
+	font-size: 30px;
+	text-align: right;
+	content: close-quote;
+	display: block;
+}
 /* Style for the special 'back to top' link. */
 .totop {
 	clear: both;

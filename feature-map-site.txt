@@ -85,6 +85,11 @@ Formatting support:
 	<q>
 	<cite>
 	<abbr>
+	
+Block Quotes:
+--------------------------
+<p>
+	<blockquote>
 
 Already Added List:
 --------------------------
@@ -121,6 +126,7 @@ Already Added List:
 <q>
 <cite>
 <abbr>
+<blockquote>
 
 Planned Features:
 ==========================
@@ -134,7 +140,6 @@ Might Use but Leave As-Is:
 
 Will Need Styling:
 --------------------------
-<blockquote>
 <code>
 <kbd>
 <pre>
@@ -144,7 +149,6 @@ Will Need Styling:
 Not Considered Yet:
 --------------------------
 <address>
-<svg>
 
 YouTube-etc:
 <iframe>

@@ -132,6 +132,10 @@ footer {
 /* ----------------------------------------------------------
 	Social media bar styles.
 ---------------------------------------------------------- */
+.social {
+	margin-top: 5px;
+}
+
 .social a {
 	text-decoration: none;
 }
@@ -231,12 +235,18 @@ p:first-letter {
 	font-weight: bold;
 }
 
+section > p:first-letter {
+	font-size: 20px;
+}
+
+/* Highlighted text styles. */
 mark {
 	background-color: #ccc;
 	border-radius: 2px;
 	padding: 0px 2px;
 }
 
+/* Cited text styles. */
 cite {
 	font-style: oblique;
 	border-top: 1px dotted #aaa;
@@ -244,6 +254,7 @@ cite {
 	padding: 0px 2px;
 }
 
+/* In-line quote styles. */
 q::before {
 	font-weight: bold;
 	font-style: italic;
@@ -256,24 +267,6 @@ q::after {
 	font-style: italic;
 	padding-left: 2px;
 	content: close-quote;
-}
-
-section > p:first-letter {
-	font-size: 20px;
-}
-
-/* Figure and Aside container styles. */
-figure, aside {
-	float: right;
-	margin: 10px;
-	padding: 5px;
-	border: 1px solid #333;
-	border-radius: 5px;
-	text-align: center;
-}
-
-figcaption {
-	margin-top: 8px;
 }
 
 /* Style for containers like blockquote and pre */
@@ -304,11 +297,21 @@ blockquote::after {
 }
 
 /* ----------------------------------------------------------
-	Special style functionality.
+	Special Functionality Styles.
 ---------------------------------------------------------- */
 
-/* Collapse margin for all except figcaption. */
-figure:not(figcaption), aside * {
+/* Figure and Aside container styles. */
+figure, aside {
+	float: right;
+	margin: 10px;
+	padding: 5px;
+	border: 1px solid #333;
+	border-radius: 5px;
+	text-align: center;
+}
+
+/* Collapse margin for all in container or aside. */
+figure > *, aside > * {
 	margin: 0px;
 }
 

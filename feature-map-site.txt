@@ -158,8 +158,6 @@ Might Use but Leave As-Is:
 
 Will Need Styling:
 --------------------------
-<kbd>
-<samp>
 <var>
 
 Not Considered Yet:
@@ -168,12 +166,6 @@ Not Considered Yet:
 
 YouTube-etc:
 <iframe>
-
-Audio-Video:
-<video>
-<track>
-<audio>
-<source>
 
 List Tags
 Table Tags

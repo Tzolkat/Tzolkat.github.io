@@ -6,6 +6,9 @@
 // Note: IE8 is not supported.
 // ======================================================================================
 
+// Prism variables.
+Prism.plugins.autoloader.languages_path = 'assets/libraries/grammars/';
+
 // Converts a NodeList into an array so we can iterate over it and such.
 function toArray(nodeList) {
 	return Array.prototype.slice.call(nodeList);

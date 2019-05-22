@@ -318,6 +318,16 @@ blockquote::after {
 	display: block;
 }
 
+/* IFrame support for embedding pdfs and videos. */
+iframe {
+	display: block;
+	width: calc(100% - 60px);
+	height: 500px;
+	margin: 20px 30px;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
 /* ----------------------------------------------------------
 	Special Functionality Styles.
 ---------------------------------------------------------- */

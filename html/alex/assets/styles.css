@@ -132,23 +132,23 @@ footer {
 }
 
 /* ----------------------------------------------------------
-	Social media bar styles.
+	Button bar styles.
 ---------------------------------------------------------- */
-.social {
+.buttons {
 	margin-top: 5px;
 }
 
-.social a {
+.buttons a {
 	text-decoration: none;
 }
 
-.social img {
+.buttons img {
 	background-color: #333;
 	border-radius: 5px;
 	transition: background-color 200ms;
 }
 
-.social img:hover {
+.buttons img:hover {
 	background-color: #069;
 }
 

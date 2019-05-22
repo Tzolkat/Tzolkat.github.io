@@ -123,6 +123,12 @@ NoScript warning:
 	<noscript>
 		<div>
 			<span>
+			
+Javascript Templating:
+--------------------------
+<body>
+	<template>
+		<*>
 
 Already Added List:
 --------------------------
@@ -165,6 +171,7 @@ Already Added List:
 <var>
 <iframe>
 <noscript>
+<template>
 
 Planned Features:
 ==========================
@@ -191,7 +198,6 @@ Details-Foldable:
 <summary>
 
 JavaScript-Usable:
-<template>
 <data>
 <dialog>
 

@@ -111,6 +111,11 @@ Variable referencing:
 --------------------------
 <p>
 	<var>
+	
+Embed pdf/video support:
+--------------------------
+<article>
+	<iframe>
 
 Already Added List:
 --------------------------
@@ -151,6 +156,7 @@ Already Added List:
 <pre>
 <code>
 <var>
+<iframe>
 
 Planned Features:
 ==========================
@@ -168,9 +174,6 @@ Will Need Styling:
 Not Considered Yet:
 --------------------------
 <address>
-
-YouTube-etc:
-<iframe>
 
 List Tags
 Table Tags

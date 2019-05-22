@@ -253,7 +253,7 @@ mark {
 code mark {
 	color: inherit;
 	background-color: #444;
-	padding: 1px 3px;
+	padding: 1px 0px;
 }
 
 /* Cited text styles. */

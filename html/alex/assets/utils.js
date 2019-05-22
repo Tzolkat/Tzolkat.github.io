@@ -7,7 +7,7 @@
 // ======================================================================================
 
 // Prism variables.
-Prism.plugins.autoloader.languages_path = 'assets/libraries/grammars/';
+Prism.plugins.autoloader.languages_path = 'assets/prism/grammars/';
 
 // Converts a NodeList into an array so we can iterate over it and such.
 function toArray(nodeList) {

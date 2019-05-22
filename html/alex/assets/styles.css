@@ -317,7 +317,7 @@ figure, aside {
 
 /* Collapse margin for all in container or aside. */
 figure > *, aside > * {
-	margin: 0px;
+	margin: 0px !important;
 }
 
 /* Style for the special 'back to top' link. */

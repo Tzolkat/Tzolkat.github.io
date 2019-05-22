@@ -94,6 +94,18 @@ Block Quotes:
 		<blockquote>
 	<figure>
 		<blockquote>
+		
+Code+Syntax Highlighting:
+--------------------------
+<article>
+	<pre>
+		<code>
+	<p>
+		<code>
+	<aside>
+		<pre>
+			<code>
+		<code>
 
 Already Added List:
 --------------------------
@@ -131,6 +143,8 @@ Already Added List:
 <cite>
 <abbr>
 <blockquote>
+<pre>
+<code>
 
 Planned Features:
 ==========================
@@ -144,9 +158,7 @@ Might Use but Leave As-Is:
 
 Will Need Styling:
 --------------------------
-<code>
 <kbd>
-<pre>
 <samp>
 <var>
 

@@ -250,6 +250,12 @@ mark {
 	padding: 0px 2px;
 }
 
+code mark {
+	color: inherit;
+	background-color: #444;
+	padding: 1px 3px;
+}
+
 /* Cited text styles. */
 cite {
 	font-style: oblique;

@@ -4,6 +4,6 @@ int main(String[] args)
 {
 	System.out.println("This is a simple Hello World program!");
 
-	int sum = 2 + 3;
-	System.out.println("The sum is: " + sum);
+	int myTotal = 2 + 3;
+	System.out.println("The sum is: " + myTotal);
 }

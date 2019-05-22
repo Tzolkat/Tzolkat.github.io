@@ -264,6 +264,18 @@ cite {
 	padding: 0px 2px;
 }
 
+/* Variable name formatting. */
+var {
+	font-family: monospace;
+	font-style: normal;
+	font-weight: bold;
+	letter-spacing: 1px;
+	background-color: #ddd;
+	border: 1px dotted #888;
+	border-radius: 2px;
+	padding: 0px 2px;
+}
+
 /* In-line quote styles. */
 q::before {
 	font-weight: bold;

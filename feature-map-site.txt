@@ -116,6 +116,13 @@ Embed pdf/video support:
 --------------------------
 <article>
 	<iframe>
+	
+NoScript warning:
+--------------------------
+<body>
+	<noscript>
+		<div>
+			<span>
 
 Already Added List:
 --------------------------
@@ -157,6 +164,7 @@ Already Added List:
 <code>
 <var>
 <iframe>
+<noscript>
 
 Planned Features:
 ==========================
@@ -186,7 +194,6 @@ JavaScript-Usable:
 <template>
 <data>
 <dialog>
-<noscript>
 
 Notes:
 --------------------------

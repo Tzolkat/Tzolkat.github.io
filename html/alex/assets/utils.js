@@ -1,7 +1,7 @@
 // Personal Site Page Utilities (c) 2019 Alex Lauderdale.
 // --------------------------------------------------------------------------------------
 // ID selectors: top, page, menu
-// Class selectors: social, totop, emailLink, emailText
+// Class selectors: buttons, totop, emailLink, emailText, noscript, language-*.
 // --------------------------------------------------------------------------------------
 // Note: IE8 is not supported.
 // ======================================================================================

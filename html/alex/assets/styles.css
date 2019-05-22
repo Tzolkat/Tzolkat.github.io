@@ -2,7 +2,8 @@
 	Personal Website (c) 2014-2019 Alex Lauderdale.
 	---------------------------------------------------------
 	ID selectors: top, page, menu
-	Class selectors: social, totop, emailLink, emailText
+	Class selectors: buttons, totop, emailLink, emailText,
+					 noscript, language-*.
 =========================================================== */
 
 /* ----------------------------------------------------------
@@ -346,6 +347,23 @@ figure, aside {
 /* Collapse margin for all in container or aside. */
 figure > *, aside > * {
 	margin: 0px !important;
+}
+
+/* NoScript Warning styles. */
+.noscript {
+	background-color: #800;
+	margin-left: 175px;
+	margin-right: 20px;
+	padding: 10px;
+	border-radius: 12px;
+	box-shadow: 6px 6px 3px black;
+	min-width: 570px;
+	color: white;
+}
+
+.noscript span {
+	color: yellow;
+	font-weight: bold;
 }
 
 /* Style for the special 'back to top' link. */

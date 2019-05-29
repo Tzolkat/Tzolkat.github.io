@@ -455,6 +455,7 @@ code, kbd, samp {
 summary {
 	font-size: 14px;
 	font-weight: bold;
+	margin: 2px;
 	letter-spacing: 1px;
 	cursor: pointer;
 	text-decoration: underline overline rgb(204, 204, 204, 0.0) solid;

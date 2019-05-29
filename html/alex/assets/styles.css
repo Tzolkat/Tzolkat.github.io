@@ -244,6 +244,11 @@ section > p:first-letter {
 	font-size: 20px;
 }
 
+/* Small tag. Used for tangental text. */
+small {
+	font-size: 12px;
+}
+
 /* Highlighted text styles. */
 mark {
 	background-color: #ccc;

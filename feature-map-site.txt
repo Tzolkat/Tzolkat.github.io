@@ -135,6 +135,11 @@ Javascript Templating:
 <body>
 	<template>
 		<*>
+		
+Small Text for Notices:
+--------------------------
+<*>
+	<small>
 
 Already Added List:
 --------------------------
@@ -188,7 +193,6 @@ Planned Features:
 Might Use but Leave As-Is:
 --------------------------
 <wbr>
-<small>
 
 
 Will Need Styling:

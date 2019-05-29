@@ -32,7 +32,7 @@ function articleFeatures() {
 	document.querySelector("header").setAttribute("id", "top");
 	var temp = document.getElementsByTagName("template")[0];
 	toArray(document.querySelectorAll("article")).slice(1).forEach(function(item) {
-		var el = temp.content.cloneNode(true)
+		var el = temp.content.cloneNode(true);
 		item.appendChild(el);
 		el = document.createElement("hr");
 		item.parentNode.insertBefore(el, item);

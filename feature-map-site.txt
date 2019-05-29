@@ -197,20 +197,36 @@ Already Added List:
 
 Planned Features:
 ==========================
-
-
-Might Use but Leave As-Is:
+List Support:
 --------------------------
+<article>
+	<ul>
+		<li>
+	css: list-style-type
+	<ol>
+		<li>
+	attrs: type, start
+	<dl>
+		<dt>
+		<dd>
+	
 
-Will Need Styling:
+Table Support:
 --------------------------
+<article>
+	<table>
+		<caption>
+		<tr>
+			<th>
+			<td>
+	css: border-collapse
+	attrs: colspan, rowspan
+
+==========================
 
 Not Considered Yet:
 --------------------------
 <address>
-
-List Tags
-Table Tags
 
 Notes:
 --------------------------

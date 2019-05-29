@@ -100,11 +100,17 @@ Code+Syntax Highlighting:
 <article>
 	<pre>
 		<code>
+		<kbd>
+		<samp>
 	<p>
 		<code>
+		<kbd>
+		<samp>
 	<aside>
 		<pre>
 			<code>
+			<kbd>
+			<samp>
 		<code>
 		
 Variable referencing:
@@ -168,6 +174,8 @@ Already Added List:
 <blockquote>
 <pre>
 <code>
+<kbd>
+<samp>
 <var>
 <iframe>
 <noscript>

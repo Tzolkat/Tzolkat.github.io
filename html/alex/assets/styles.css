@@ -451,6 +451,29 @@ code, kbd, samp {
 	Special Functionality Styles.
 ---------------------------------------------------------- */
 
+/* Details and Summary Support */
+summary {
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	cursor: pointer;
+	text-decoration: underline overline rgb(204, 204, 204, 0.0) solid;
+	transition: text-decoration 200ms;
+}
+
+summary:hover {
+	text-decoration: underline overline rgb(204, 204, 204, 1.0) solid;
+}
+
+details[open] summary ~ * {
+	animation: fadein .5s ease-in-out;
+}
+
+@keyframes fadein {
+	from {opacity: 0.0;}
+	to {opacity: 1.0;}
+}
+
 /* Figure and Aside container styles. */
 figure, aside {
 	float: right;

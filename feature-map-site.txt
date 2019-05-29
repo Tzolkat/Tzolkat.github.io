@@ -140,6 +140,12 @@ Small Text for Notices:
 --------------------------
 <*>
 	<small>
+	
+Details-Foldable:
+--------------------------
+<article>
+	<details>
+		<summary>
 
 Already Added List:
 --------------------------
@@ -186,6 +192,8 @@ Already Added List:
 <noscript>
 <template>
 <small>
+<details>
+<summary>
 
 Planned Features:
 ==========================
@@ -203,10 +211,6 @@ Not Considered Yet:
 
 List Tags
 Table Tags
-
-Details-Foldable:
-<details>
-<summary>
 
 Notes:
 --------------------------

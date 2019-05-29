@@ -403,7 +403,7 @@ code, kbd, samp {
 .language-css .token.string,
 .style .token.string,
 .token.variable {
-	color: #f8f8f2;
+	color: ghostwhite;
 }
 
 .token.atrule,

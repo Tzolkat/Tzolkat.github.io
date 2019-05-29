@@ -215,4 +215,3 @@ Table Tags
 Notes:
 --------------------------
 Need to look up a way to write equations.
-Possibly need to import a syntax highlighter.

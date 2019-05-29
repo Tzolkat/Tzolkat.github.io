@@ -185,6 +185,7 @@ Already Added List:
 <iframe>
 <noscript>
 <template>
+<small>
 
 Planned Features:
 ==========================
@@ -192,8 +193,6 @@ Planned Features:
 
 Might Use but Leave As-Is:
 --------------------------
-<wbr>
-
 
 Will Need Styling:
 --------------------------
@@ -208,10 +207,6 @@ Table Tags
 Details-Foldable:
 <details>
 <summary>
-
-JavaScript-Usable:
-<data>
-<dialog>
 
 Notes:
 --------------------------

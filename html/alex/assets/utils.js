@@ -3,7 +3,7 @@
 // ID selectors: top, page, menu
 // Class selectors: buttons, totop, emailLink, emailText, noscript, language-*.
 // --------------------------------------------------------------------------------------
-// Note: IE8 is not supported.
+// Note: IE8 is not supported. Some functions only work on a webserver. Mind ad blockers.
 // ======================================================================================
 
 // Prism variables.

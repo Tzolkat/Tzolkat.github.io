@@ -209,6 +209,8 @@ List Support:
 	<dl>
 		<dt>
 		<dd>
+
+Table of contents support.
 	
 
 Table Support:

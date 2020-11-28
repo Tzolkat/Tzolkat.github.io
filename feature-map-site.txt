@@ -147,8 +147,27 @@ Details-Foldable:
 	<details>
 		<summary>
 
+List Support:
+--------------------------
+<article>
+	<ul>
+		<li>
+	css: list-style-type
+	<ol>
+		<li>
+	attrs: type, start
+	<dl>
+		<dt>
+		<dd>
+
 Already Added List:
 --------------------------
+<ul>
+<ol>
+<li>
+<dl>
+<dt>
+<dd>
 <h1>
 <h2>
 <p>
@@ -197,21 +216,8 @@ Already Added List:
 
 Planned Features:
 ==========================
-List Support:
---------------------------
-<article>
-	<ul>
-		<li>
-	css: list-style-type
-	<ol>
-		<li>
-	attrs: type, start
-	<dl>
-		<dt>
-		<dd>
 
 Table of contents support.
-	
 
 Table Support:
 --------------------------

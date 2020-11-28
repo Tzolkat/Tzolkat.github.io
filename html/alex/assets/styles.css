@@ -338,7 +338,7 @@ iframe {
 ---------------------------------------------------------- */
 
 /* Shared properties between ul and ol. */
-ul, ol {
+ul, ol, dl {
 	display: block;
 	list-style: none outside;
 	margin: 20px 0px 20px 30px;
@@ -370,6 +370,16 @@ ol ol, ul ol {
 	list-style-type: lower-alpha;
 	margin: 2px 0px;
 	padding-left: 16px;
+}
+
+/* Properties specific to definition lists */
+dt {
+	font-weight: bold;
+	border-bottom: #333 1px dotted;
+}
+
+dd {
+	margin-left: 20px;
 }
 
 

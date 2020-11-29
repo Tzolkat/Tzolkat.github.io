@@ -160,8 +160,24 @@ List Support:
 		<dt>
 		<dd>
 
+Table Support:
+--------------------------
+<article>
+	<table>
+		<caption>
+		<tr>
+			<th>
+			<td>
+	css: border-collapse
+	attrs: colspan, rowspan
+
 Already Added List:
 --------------------------
+<table>
+<caption>
+<tr>
+<th>
+<td>
 <ul>
 <ol>
 <li>
@@ -219,23 +235,7 @@ Planned Features:
 
 Table of contents support.
 
-Table Support:
---------------------------
-<article>
-	<table>
-		<caption>
-		<tr>
-			<th>
-			<td>
-	css: border-collapse
-	attrs: colspan, rowspan
-
 ==========================
-
-Form Support
----------------------------
-
-===========================
 
 Not Considered Yet:
 --------------------------

@@ -3,7 +3,7 @@
 	---------------------------------------------------------
 	ID selectors: top, page, menu
 	Class selectors: buttons, totop, emailLink, emailText,
-					 noscript, language-*.
+					 noscript, break, language-*.
 =========================================================== */
 
 /* ----------------------------------------------------------
@@ -334,7 +334,7 @@ iframe {
 }
 
 /* ----------------------------------------------------------
-	Unordered and Unordered List Styles.
+	Ordered, Unordered and Definition List Styles.
 ---------------------------------------------------------- */
 
 /* Shared properties between ul and ol. */
@@ -380,6 +380,33 @@ dt {
 
 dd {
 	margin-left: 20px;
+}
+
+/* ----------------------------------------------------------
+	Table Styles
+---------------------------------------------------------- */
+table {
+	padding: 8px;
+	margin: 20px 30px;
+	border-collapse: collapse;
+	border-radius: 5px;
+	border-style: hidden;
+	overflow: hidden;
+	
+}
+
+th, td {
+	padding: 8px;
+	border: 1px dotted #333;
+}
+
+tr:nth-child(even) {
+	background-color: #ccc;
+}
+
+caption {
+	padding-bottom: 5px;
+	border-bottom: 1px dotted #333;
 }
 
 
@@ -556,6 +583,11 @@ figure > *, aside > * {
 .noscript span {
 	color: yellow;
 	font-weight: bold;
+}
+
+/* Style to provide for clearing of floats when needed */
+.break {
+	clear: both;
 }
 
 /* Style for the special 'back to top' link. */

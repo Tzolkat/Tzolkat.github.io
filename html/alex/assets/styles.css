@@ -323,6 +323,15 @@ blockquote::after {
 	display: block;
 }
 
+address {
+	display: block;
+	margin: 20px 30px;
+	padding: 5px;
+	text-align: center;
+	border-top: 1px dotted #333;
+	border-bottom: 1px dotted #333;
+}
+
 /* IFrame support for embedding pdfs and videos. */
 iframe {
 	display: block;

@@ -85,6 +85,7 @@ Formatting support:
 	<q>
 	<cite>
 	<abbr>
+	<address>
 	
 Block Quotes:
 --------------------------
@@ -173,6 +174,7 @@ Table Support:
 
 Already Added List:
 --------------------------
+<address>
 <table>
 <caption>
 <tr>
@@ -236,10 +238,6 @@ Planned Features:
 Table of contents support.
 
 ==========================
-
-Not Considered Yet:
---------------------------
-<address>
 
 Notes:
 --------------------------

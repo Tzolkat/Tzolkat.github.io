@@ -350,11 +350,11 @@ iframe {
 ul, ol, dl {
 	display: block;
 	list-style: none outside;
-	margin: 20px 0px 20px 30px;
+	margin: 20px 30px;
 }
 
-li {
-	display: list-item;
+li::marker {
+	font-weight: bold;
 }
 
 /* Properties specific to unordered lists. */

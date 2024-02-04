@@ -18,7 +18,7 @@ function toArray(nodeList) {
 function renderEmail() {
 	var o = "tzolkat";
 	var n = "net";
-	var m = "alex";
+	var m = "jason.jones";
 	toArray(document.querySelectorAll(".emailLink")).forEach(function(item) {
 		item.setAttribute("href", "mailto:" + m + "@" + o + "." + n);
 	});

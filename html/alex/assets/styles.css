@@ -77,6 +77,13 @@ h1 {
 	color: #aaa;
 }
 
+/* Style for the alternate name in h1. */
+h1 span {
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: #666;
+}
+
 /* ----------------------------------------------------------
 	Footer area styles.
 ---------------------------------------------------------- */

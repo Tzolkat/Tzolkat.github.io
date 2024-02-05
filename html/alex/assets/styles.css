@@ -278,15 +278,23 @@ cite {
 	padding: 0px 2px;
 }
 
-/* Variable name formatting. */
-var {
+/* Variable name and keyboard input formatting. */
+var, kbd {
 	font-family: monospace;
 	font-style: normal;
 	font-weight: bold;
 	background-color: #ddd;
-	border: 1px dotted #888;
+	border: 1px #888;
 	border-radius: 2px;
 	padding: 0px 2px;
+}
+
+kbd {
+	border-style: solid;
+}
+
+var {
+	border-style: dotted;
 }
 
 /* In-line quote styles. */
@@ -444,7 +452,7 @@ pre {
 	tab-size: 4;
 }
 
-code, kbd, samp {
+code, samp {
 	background-color: #333;
 	color: ghostwhite;
 	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;

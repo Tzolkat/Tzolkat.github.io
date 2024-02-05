@@ -1,0 +1,617 @@
+/* ==========================================================
+	Personal Website (c) 2014-2024 Alex Lauderdale.
+	---------------------------------------------------------
+	ID selectors: top, page, menu
+	Class selectors: buttons, totop, emailLink, emailText,
+					 noscript, break, language-*.
+=========================================================== */
+
+/* ----------------------------------------------------------
+	Attributes applied to the whole document.
+---------------------------------------------------------- */
+body {
+	background: black url('images/carbon_fiber1.jpg') repeat;
+	padding: 0px 20px 20px 5px;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: serif;
+}
+
+/* Horizontal rule, thematic break. */
+hr {
+	border: 1px solid #333;
+	border-radius: 5px;
+	margin: 5px 0px 5px 0px;
+}
+
+/* Heading 2. Used for job title and article headings. */
+h2 {
+	font-size: 22px;
+	font-weight: bold;
+	margin: 2px 2px 5px 2px;
+	letter-spacing: 2px;
+}
+
+/* Style and animation for document hyperlinks. */
+a {
+	color: #333;
+	transition: color 200ms;
+}
+
+a:hover {
+	color: #069;
+}
+
+/* ----------------------------------------------------------
+	Header area styles.
+---------------------------------------------------------- */
+header {
+	display: table;
+	padding: 0px 20px 0px 175px;
+	text-align: center;
+	color: #666;
+	min-width: 590px;
+}
+
+/* Container for the site heading. */
+header div {
+	display: table-cell;
+	text-align: left;
+	vertical-align: bottom;
+	padding: 0px 0px 10px 5px;
+	width: 100%;
+}
+
+/* The logo image itself. */
+header img {
+	display: table-cell;
+	width: 120px;
+}
+
+/* Heading 1 style for the page title: My name. */
+h1 {
+	font-size: 36px;
+	font-weight: bold;
+	margin: 2px;
+	text-shadow: 2px 2px black;
+	color: #aaa;
+}
+
+/* Style for the alternate name in h1. */
+h1 span {
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: #666;
+}
+
+/* ----------------------------------------------------------
+	Footer area styles.
+---------------------------------------------------------- */
+footer {
+	margin: auto;
+	padding: 20px 20px 0px 175px;
+	text-align: center;
+	font-size: 12px;
+	color: #666;
+}
+
+/* ----------------------------------------------------------
+	Navigation area styles.
+---------------------------------------------------------- */
+#menu {
+	min-width: 155px;
+	width: 155px;
+	padding: 20px 0px 20px 0px;
+	position: sticky;
+	top: 0;
+	z-index: 0;
+}
+
+/* Containers for the navigation links. */
+#menu * {
+	display: block;
+	background: rgba(0, 0, 0, 0.6);
+	padding: 1px 10px 1px 1px;
+	margin: 2px 0px 2px 10px;
+	border: solid #333;
+	border-width: 2px 0px 2px 2px;
+	border-radius: 10px 0px 0px 10px;
+	box-shadow: 6px 6px 3px black;
+	text-align: right;
+	color: white;
+	text-decoration: none;
+	transition: margin 200ms, padding-right 200ms, border-color 200ms;
+}
+
+/* Animated navigation links. */
+#menu a:hover {
+	margin: 2px 0px 2px 0px;
+	padding-right: 20px;
+	border-color: #069;
+	color: white;
+}
+
+/* Current page as defined in navigation. */
+#menu span {
+	margin: 2px 0px 2px 0px;
+	padding-right: 20px;
+	border-color: #666;
+	font-weight: bold;
+}
+
+/* ----------------------------------------------------------
+	Button bar styles.
+---------------------------------------------------------- */
+.buttons {
+	margin-top: 5px;
+}
+
+.buttons a {
+	text-decoration: none;
+}
+
+.buttons img {
+	background-color: #333;
+	border-radius: 5px;
+	transition: background-color 200ms;
+}
+
+.buttons img:hover {
+	background-color: #069;
+}
+
+/* ----------------------------------------------------------
+	Page body styles.
+---------------------------------------------------------- */
+#page {
+	display: table;
+	margin: auto;
+	width: 100%;
+}
+
+/* Container for the actual content. Dynamic width. */
+main {
+	display: table-cell;
+	min-width: 600px;
+	background: rgba(0, 0, 0, 0.6);
+	border:4px solid #333;
+	border-radius: 12px;
+	box-shadow: 6px 6px 3px black;
+	vertical-align: top;
+	text-align: left;
+	padding: 10px;
+	color: white;
+	position: relative;
+	z-index: 1;
+}
+
+/* Defines an article of text. Black on white. */
+article {
+	background: rgba(255, 255, 255, 0.9);
+	border-radius: 5px;
+	padding: 10px;
+	color: black;
+	overflow: auto;
+}
+
+/* Section styling. Large top margin for readability. */
+section {
+	margin-top: 40px;
+}
+
+/* Post date and time style. Float right of heading. */
+time {
+	float: right;
+	font-size: 12px;
+	margin-top: 10px;
+	margin-right: 10px;
+	letter-spacing: 2px;
+}
+
+/* Headers 3-6 for multi-section support. */
+h3 {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 2px 2px 4px 2px;
+	letter-spacing: 1px;
+}
+
+h4 {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 2px;
+	letter-spacing: 1px;
+}
+
+h5 {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 2px;
+	letter-spacing: 1px;
+}
+
+h6 {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 2px;
+	letter-spacing: 1px;
+}
+
+/* Paragraph attributes. Indent and drop cap. */
+p {
+	text-indent: 30px;
+}
+
+p:first-letter {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+section > p:first-letter {
+	font-size: 20px;
+}
+
+/* Small tag. Used for tangental text. */
+small {
+	font-size: 12px;
+}
+
+/* Highlighted text styles. */
+mark {
+	background-color: #ccc;
+	border-radius: 2px;
+	padding: 0px 2px;
+}
+
+code mark {
+	color: inherit;
+	background-color: #444;
+	padding: 1px 0px;
+}
+
+/* Cited text styles. */
+cite {
+	font-style: oblique;
+	border-top: 1px dotted #aaa;
+	border-bottom: 1px dotted #aaa;
+	padding: 0px 2px;
+}
+
+/* Variable name formatting. */
+var {
+	font-family: monospace;
+	font-style: normal;
+	font-weight: bold;
+	background-color: #ddd;
+	border: 1px dotted #888;
+	border-radius: 2px;
+	padding: 0px 2px;
+}
+
+/* In-line quote styles. */
+q::before {
+	font-weight: bold;
+	font-style: italic;
+	padding-right: 2px;
+	content: open-quote;
+}
+
+q::after {
+	font-weight: bold;
+	font-style: italic;
+	padding-left: 2px;
+	content: close-quote;
+}
+
+/* Style for containers like blockquote and pre */
+blockquote {
+	text-align: center;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
+	background-color: #ccc;
+	border-radius: 5px;
+	padding: 10px 15px 0px 10px;
+	margin: 20px 30px;
+}
+
+blockquote::before {
+	font-size: 30px;
+	text-align: left;
+	content: open-quote;
+	display: block;
+}
+
+blockquote::after {
+	padding-top: 15px;
+	font-size: 30px;
+	text-align: right;
+	content: close-quote;
+	display: block;
+}
+
+address {
+	display: block;
+	margin: 20px 30px;
+	padding: 5px;
+	text-align: center;
+	border-top: 1px dotted #333;
+	border-bottom: 1px dotted #333;
+}
+
+/* IFrame support for embedding pdfs and videos. */
+iframe {
+	display: block;
+	width: calc(100% - 60px);
+	height: 500px;
+	margin: 20px 30px;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+/* ----------------------------------------------------------
+	Ordered, Unordered and Definition List Styles.
+---------------------------------------------------------- */
+
+/* Shared properties between ul and ol. */
+ul, ol, dl {
+	display: block;
+	list-style: none outside;
+	margin: 20px 30px;
+}
+
+li::marker {
+	font-weight: bold;
+}
+
+/* Properties specific to unordered lists. */
+ul {
+	list-style-type: disc;
+	padding-left: 16px;
+}
+
+ul ul, ol ul {
+	list-style-type: circle;
+	margin: 2px 0px;
+	padding-left: 16px;
+}
+
+/* Properties specific to ordered lists. */
+ol {
+	list-style-type: upper-alpha;
+	padding-left: 20px;
+}
+
+ol ol, ul ol {
+	list-style-type: lower-alpha;
+	margin: 2px 0px;
+	padding-left: 16px;
+}
+
+/* Properties specific to definition lists */
+dt {
+	font-weight: bold;
+	border-bottom: #333 1px dotted;
+}
+
+dd {
+	margin-left: 20px;
+}
+
+/* ----------------------------------------------------------
+	Table Styles
+---------------------------------------------------------- */
+table {
+	padding: 8px;
+	margin: 20px 30px;
+	border-collapse: collapse;
+	border-radius: 5px;
+	border-style: hidden;
+	overflow: hidden;
+	
+}
+
+th, td {
+	padding: 8px;
+	border: 1px dotted #333;
+}
+
+tr:nth-child(even) {
+	background-color: #ccc;
+}
+
+caption {
+	padding-bottom: 5px;
+	border-bottom: 1px dotted #333;
+}
+
+
+/* ----------------------------------------------------------
+	Code, Keyboard Input, and Sample Output Styles.
+---------------------------------------------------------- */
+
+/* Base formatting for code, input, and output. */
+pre {
+	background-color: #333;
+	padding: 18px;
+	margin: 20px 30px;
+	border-radius: 5px;
+	white-space: pre-wrap;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+}
+
+code, kbd, samp {
+	background-color: #333;
+	color: ghostwhite;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	line-height: 1.5;
+	padding: 2px;
+	border-radius: 3px;
+
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Syntax highlighting styles for Prism.js. */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: slategray;
+}
+
+.token.punctuation {
+	color: ghostwhite;
+}
+
+.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: ghostwhite;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+
+.token a {
+	color: inherit;
+	transition: filter 200ms;
+}
+
+.token a:hover {
+	filter: brightness(150%);
+}
+
+/* ----------------------------------------------------------
+	Special Functionality Styles.
+---------------------------------------------------------- */
+
+/* Details and Summary Support */
+summary {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 2px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	text-decoration: underline overline rgb(204, 204, 204, 0.0) solid;
+	transition: text-decoration 200ms;
+}
+
+summary:hover {
+	text-decoration: underline overline rgb(204, 204, 204, 1.0) solid;
+}
+
+details[open] summary ~ * {
+	animation: fadein .5s ease-in-out;
+}
+
+@keyframes fadein {
+	from {opacity: 0.0;}
+	to {opacity: 1.0;}
+}
+
+/* Figure and Aside container styles. */
+figure, aside {
+	float: right;
+	margin: 10px;
+	padding: 5px;
+	border: 1px solid #333;
+	border-radius: 5px;
+	text-align: center;
+	max-width: 45%;
+}
+
+/* Collapse margin for all in container or aside. */
+figure > *, aside > * {
+	margin: 0px !important;
+}
+
+/* NoScript Warning styles. */
+.noscript {
+	background-color: #800;
+	margin-left: 175px;
+	margin-right: 20px;
+	padding: 10px;
+	border-radius: 12px;
+	box-shadow: 6px 6px 3px black;
+	min-width: 570px;
+	color: white;
+}
+
+.noscript span {
+	color: yellow;
+	font-weight: bold;
+}
+
+/* Style to provide for clearing of floats when needed */
+.break {
+	clear: both;
+}
+
+/* Style for the special 'back to top' link. */
+.totop {
+	clear: both;
+	font-size: 12px;
+	margin-right: 14px;
+	display: block;
+	text-align: right;
+}

@@ -1,0 +1,244 @@
+Completed Features
+==========================
+Header Stuff:
+--------------------------
+<header>
+	<img>
+	<div>
+		<h1>
+		<h2>
+		<hr>
+	
+Footer Stuff:
+--------------------------
+<footer>
+	<br>
+	<a>
+	
+Page Container:
+--------------------------
+<body>
+	<div>
+	
+Main Menu:
+--------------------------
+<div>
+	<nav>
+		<span>
+		<a>
+		
+Basic Article Support:
+--------------------------
+<main>
+	<article>
+		<h2>
+		<hr>
+		<p>
+		<a>
+		<br>
+	<hr>
+	
+Figure and Aside Support:
+--------------------------
+<article>
+	<aside>
+	<figure>
+		<img>
+		<figcaption>
+			<a>
+			<br>
+			
+Social Media Buttons:
+--------------------------
+<figcaption>
+	<nav>
+		<a>
+			<img>
+			
+Blogging Timestamps:
+--------------------------
+<article>
+	<time>	
+	
+Multi-Section Articles:
+--------------------------
+<article>
+	<section>
+		<h3>
+		<section>
+			<h4>
+			<section>
+				<h5>
+				<section>
+					<h6>
+					
+Formatting support:
+--------------------------
+<p>
+	<em>
+	<strong>
+	<u>
+	<s>
+	<mark>
+	<sub>
+	<sup>
+	<q>
+	<cite>
+	<abbr>
+	<address>
+	
+Block Quotes:
+--------------------------
+<p>
+	<blockquote>
+	<aside>
+		<blockquote>
+	<figure>
+		<blockquote>
+		
+Code+Syntax Highlighting:
+--------------------------
+<article>
+	<pre>
+		<code>
+		<kbd>
+		<samp>
+	<p>
+		<code>
+		<kbd>
+		<samp>
+	<aside>
+		<pre>
+			<code>
+			<kbd>
+			<samp>
+		<code>
+		
+Variable referencing:
+--------------------------
+<p>
+	<var>
+	
+Embed pdf/video support:
+--------------------------
+<article>
+	<iframe>
+	
+NoScript warning:
+--------------------------
+<body>
+	<noscript>
+		<div>
+			<span>
+			
+Javascript Templating:
+--------------------------
+<body>
+	<template>
+		<*>
+		
+Small Text for Notices:
+--------------------------
+<*>
+	<small>
+	
+Details-Foldable:
+--------------------------
+<article>
+	<details>
+		<summary>
+
+List Support:
+--------------------------
+<article>
+	<ul>
+		<li>
+	css: list-style-type
+	<ol>
+		<li>
+	attrs: type, start
+	<dl>
+		<dt>
+		<dd>
+
+Table Support:
+--------------------------
+<article>
+	<table>
+		<caption>
+		<tr>
+			<th>
+			<td>
+	css: border-collapse
+	attrs: colspan, rowspan
+
+Already Added List:
+--------------------------
+<address>
+<table>
+<caption>
+<tr>
+<th>
+<td>
+<ul>
+<ol>
+<li>
+<dl>
+<dt>
+<dd>
+<h1>
+<h2>
+<p>
+<br>
+<hr>
+<time>
+<img>
+<figure>
+<figcaption>
+<aside>
+<a>
+<nav>
+<div>
+<span>
+<header>
+<footer>
+<main>
+<article>
+<section>
+<h3>
+<h4>
+<h5>
+<h6>
+<em>
+<strong>
+<u>
+<s>
+<mark>
+<sub>
+<sup>
+<q>
+<cite>
+<abbr>
+<blockquote>
+<pre>
+<code>
+<kbd>
+<samp>
+<var>
+<iframe>
+<noscript>
+<template>
+<small>
+<details>
+<summary>
+
+Planned Features:
+==========================
+
+Table of contents support.
+
+==========================
+
+Notes:
+--------------------------
+Need to look up a way to write equations.

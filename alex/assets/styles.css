@@ -593,6 +593,17 @@ figure > *, aside > * {
 	margin: 0px !important;
 }
 
+/* Landing page styles. */
+.landing {
+	text-align: center;
+	color: #aaa;
+}
+
+.landing img {
+	display: block;
+	margin: 0 auto;
+}
+
 /* NoScript Warning styles. */
 .noscript {
 	background-color: #800;

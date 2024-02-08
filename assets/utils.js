@@ -13,7 +13,7 @@ Prism.plugins.autoloader.languages_path = 'assets/prism/grammars/';
 const menu = [
 	{
 		"title": "About",
-		"link": "/index.html"
+		"link": "/about.html"
 	},
 	{
 		"title": "Education",
@@ -89,9 +89,6 @@ function insertMenu() {
 
 // This is the stuff we do once the DOM is loaded.
 document.addEventListener("DOMContentLoaded", function() {
-	if (location.pathname == "/") {
-		location.pathname = "/index.html";
-	}
 	insertMenu();
 	renderEmail();
 	articleFeatures();

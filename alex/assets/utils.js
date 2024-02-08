@@ -13,23 +13,23 @@ Prism.plugins.autoloader.languages_path = 'assets/prism/grammars/';
 const menu = [
 	{
 		"title": "About",
-		"link": "/about.html"
+		"link": "/alex/about.html"
 	},
 	{
 		"title": "Education",
-		"link": "/education.html"
+		"link": "/alex/education.html"
 	},
 	{
 		"title": "Projects",
-		"link": "/projects.html"
+		"link": "/alex/projects.html"
 	},
 	{
 		"title": "Downloads",
-		"link": "/downloads.html"
+		"link": "/alex/downloads.html"
 	},
 	{
 		"title": "Contact",
-		"link": "/contact.html"
+		"link": "/alex/contact.html"
 	}
 ];
 
